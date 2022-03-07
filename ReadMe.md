@@ -10,7 +10,8 @@ The aim of this hackaton was to develop a machine learning model, which processe
 We use an AutoEncoder neural network. An autoencoder takes an input and performs an “encoding” (essentially a generalised PCA) on the input, resulting in a bottleneck of the most important features. A "decoding" is then performed on the bottleneck to reconstruct the input using only the features with largest variance. This reconstructed input can be compared with the original image by taking a mean absolute error between the input and the reconstructed input. This gives us an array of losses for each individual event. The sum of the mean and standard deviation losses represents the value for our threshold used for anomaly detection.
 
 ![img2](https://user-images.githubusercontent.com/56360395/156949041-45a7d69d-761b-4376-b650-ce3211a712ef.png)
-![MAE Loss Image](https://user-images.githubusercontent.com/56360395/156949041-45a7d69d-761b-4376-b650-ce3211a712ef.png)
+![imgtemp](https://user-images.githubusercontent.com/56360395/156952903-ef0ed7c4-65b1-42b7-aa81-84db3c3f71c2.png)
+
 
 You can download our presentation in the files or have a look here:
 https://docs.google.com/presentation/d/1I-U3-zCT2FVroj4rzkMSEnIKHSEPsJTvHFEt0GWElgE/edit?usp=sharing
